@@ -1,0 +1,92 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    width: 150px;
+    padding: 20px;
+}
+
+header nav {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(255, 101, 51);
+    font-weight: bold;
+}
+
+.hero {
+    background-color: rgb(167, 166, 166);
+    width: 100%;
+    height:500px ;
+}
+
+section {
+    padding: 20px;
+}
+
+section.section-oque, section.section-diferenciais {
+    background-color: rgba(51, 133, 214, 0.4);
+}
+
+section.section-praquem {
+    background-color: rgba(255, 204, 55, 0.4);
+}
+
+section.section-porque {
+    background-color: rgba(255, 101, 51, 0.4);
+}
+
+.subtext {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px 40px 20px 40px ;
+}
+
+.subtext:nth-of-type(1) {
+    background-color: rgb(255, 255, 255);
+}
+
+.subtext:nth-of-type(2) {
+    background-color: #3385d6;
+}
+
+.subtext:nth-of-type(3) {
+    background-color: #ffcc37;
+}
+
+.subtext:nth-of-type(4) {
+    background-color: #ff6533;
+}
+
+.register-button {
+    background-color: #ffcc37;
+    border: 0;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    border-top: 1px solid #aaa;
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    color: #3385d6;
+    font-weight: bold;
+}
